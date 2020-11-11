@@ -10,6 +10,7 @@ class Animator {
 
     private ticker: Ticker;
 
+
     /**
      * Construct Animator.
      * 
@@ -18,6 +19,7 @@ class Animator {
     public constructor(clock: ClockDisplay) {
         this.clock = clock;
         this.ticker = new Ticker(this);
+    
     }
 
     /**
