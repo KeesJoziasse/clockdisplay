@@ -10,17 +10,23 @@ class Animator {
 
     private ticker: Ticker;
 
+    private Cat: cat;
+    
+
 
     /**
      * Construct Animator.
      * 
      * @param clock 
      */
-    public constructor(clock: ClockDisplay) {
+    public constructor(clock: ClockDisplay, Cat:cat) {
         this.clock = clock;
         this.ticker = new Ticker(this);
+        this.Cat = Cat;
     
     }
+
+
 
     /**
      * Handles an interval. This method is called by the `Ticker` at regular
@@ -28,6 +34,7 @@ class Animator {
      */
     public step() {
         this.clock.timeTick();
+        this.Cat.timeTick();
     }
 
     /**
