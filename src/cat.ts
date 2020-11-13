@@ -94,7 +94,7 @@ class Cat{
             let garfield = document.getElementById('garfield');
             garfield.innerHTML = " ";
             const img = document.createElement('img');
-            img.src = "/deadcat.jpg";
+            img.src = "/images/deadcat.jpg";
             garfield.appendChild(img);
             
         } if(this.hunger === 100){
