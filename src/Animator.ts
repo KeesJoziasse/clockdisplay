@@ -10,7 +10,7 @@ class Animator {
 
     private ticker: Ticker;
 
-    private Cat: cat;
+    private cat: Cat;
     
 
 
@@ -19,10 +19,10 @@ class Animator {
      * 
      * @param clock 
      */
-    public constructor(clock: ClockDisplay, Cat:cat) {
+    public constructor(clock: ClockDisplay, cat:Cat) {
         this.clock = clock;
         this.ticker = new Ticker(this);
-        this.Cat = Cat;
+        this.cat = cat;
     
     }
 
@@ -34,7 +34,7 @@ class Animator {
      */
     public step() {
         this.clock.timeTick();
-        this.Cat.timeTick();
+        this.cat.timeTick();
     }
 
     /**

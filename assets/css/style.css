@@ -7,3 +7,43 @@ canvas{
     font-family: 'Minecraft';
     background-image: url("../images/nebula-bg.jpg");
 }
+
+#garfield{
+    margin-left: 700px;
+}
+
+#h1 {
+    text-align: center;
+}
+
+#p{
+    text-align: center;
+}
+
+#tickerButton{
+    margin-left: 900px;
+}
+
+#catInfo {
+    position: absolute;
+    border: 1px solid black;
+    width: 350px;
+    height: 100px;
+    margin-left: 1450px;
+    margin-bottom: 1550px;
+    
+}
+
+#counter{
+    text-align: center;
+    font-size: 25px;
+}
+
+#eatButton{
+    margin-left: 900px;
+}
+
+#setTime{
+   margin-left: 960px;
+}
+

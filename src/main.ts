@@ -6,9 +6,9 @@ window.addEventListener('load', () => {
     
     const clock = new ClockDisplay(document.getElementById('output'));
 
-    const Cat = new cat();
+    const cat = new Cat();
 
-    const animator = new Animator(clock, Cat);
+    const animator = new Animator(clock, cat);
     
 
 
@@ -16,6 +16,10 @@ window.addEventListener('load', () => {
         console.log("User clicked ticker button");
         animator.toggleAnimation();
     });
+
+    
+
+ 
     
     document.getElementById('setTime').addEventListener("click", () => {
         console.log("User clicked setTime button");
