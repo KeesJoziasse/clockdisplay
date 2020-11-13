@@ -80,7 +80,7 @@ class Cat{
             let garfield = document.getElementById('garfield');
             const notOkay = document.createElement('img');
             
-            notOkay.src = "/feelsbadman.jpg";
+            notOkay.src = "/images/feelsbadman.jpg";
             garfield.appendChild(notOkay)
         } if(this.mood === 50){
             console.log(this.moodyCat)
